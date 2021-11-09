@@ -1,0 +1,51 @@
+.App {
+  text-align: center;
+}
+
+/* Header */
+.mainLayout .mainHeader {
+  box-shadow: 10px;
+  background-color: white;
+  height: 50px;
+  padding: 0 25px;
+}
+
+/* Content */
+.mainLayout .mainContent {
+  background-color: white;
+  padding: 50px 50px;
+}
+
+.mainContent .searchBox {
+  border-radius: 10px;
+}
+
+.mainContent .searchButton {
+  border-radius: 10px;
+}
+
+.mainContent .buttonFilter span {
+  width: 90px;
+  padding: 2px 7px;
+  text-align: center;
+  border: solid 1px;
+  border-radius: 15px;
+}
+
+.mainContent .cardContainer .ant-card-body {
+  padding: 15px;
+}
+
+.mainContent .cardContainer {
+  border-radius: 15px;
+  width: 100%;
+  padding: 0;
+}
+
+.mainContent .cardContainer .imagePreview {
+  border-radius: 10px;
+}
+
+.mainContent .classTypeTag{
+  border-radius: 7px;
+}
